@@ -1,10 +1,13 @@
 # Título del trabajo
 
-Descripción breve del proyecto a realizar (2-3 frases).
+Prestamo y devoliciones de libros (biblioteca)
 
 ## Integrantes del equipo
 
 Nombres, apellidos, y usuario GitHub de los integrantes del equipo.
+Daniel Rodriguez Escudero
+Oscar Torija Aragones
+Mihaita Florin Smetan
 
 ## Objetivos del trabajo
 
