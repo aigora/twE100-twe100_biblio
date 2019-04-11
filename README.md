@@ -1,14 +1,21 @@
 # Biblioteca
 
-Prestamo y devoliciones de libros (biblioteca)
+Prestamo y devoliciones de libros
 
 ## Integrantes del equipo
 
-Nombres, apellidos, y usuario GitHub de los integrantes del equipo.
-Daniel Rodriguez Escudero
+usuario GitHub de los integrantes del equipo.
+Daniel Rodriguez Escudero (danielrodriguezescudero)
 Oscar Torija Aragones
 Mihaita Florin Smetan
 
 ## Objetivos del trabajo
 
-Lista de los objetivos que se persiguen con el trabajo propuesto.
+Cargar lista libros de un archivo
+Guardar lista libros de un archivo
+Añadir libros
+Eliminar libros
+Prestar libros
+Devolver libros
+Visualizar lista libros por autor
+Mostrar lista libros por genero
