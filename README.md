@@ -14,7 +14,7 @@ Mihaita Florin Smetan (mihaitasmetan)
 
 Cargar lista libros de un archivo
 
-Guardar lista libros de un archivo
+Guardar lista libros en un archivo
 
 Añadir libros
 
