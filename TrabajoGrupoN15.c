@@ -1,5 +1,5 @@
 // Trabajo de informatica grupo N-15
-// Realizado por Daniel Rodriguez y Oscar Torija
+// Realizado por Daniel Rodriguez, Oscar Torija y Mihaita Smetan
 
 // Librerias
 #include<stdio.h>
@@ -52,7 +52,7 @@ int main()
 				if (p_archivo == NULL){
 					printf("\nNo se ha encontrado el archivo.");
 				}else{				
-					// Generamos el vector del tamaño adecuado, reservando memoria para la lista de libros
+					// Generamos el vector del tamaÃ±o adecuado, reservando memoria para la lista de libros
 					fscanf(p_archivo, "%d", &N);
 					printf("\nNumero de libros diferentes = %d\n", N);
 					biblioteca = malloc(N*sizeof(Libro));
@@ -108,7 +108,7 @@ int main()
 
 			case'A': case'a':
 				do{
-					// Pedimos titulo del libro a añadir y comparamos con los de la biblioteca
+					// Pedimos titulo del libro a aÃ±adir y comparamos con los de la biblioteca
 					printf("\nInserte el titulo del libro: ");
 					gets(comparadortitulo);
 					i=0;
@@ -121,7 +121,7 @@ int main()
 					}
 					
 					if(encontrado){
-						// Añadimos libros a la biblioteca
+						// AÃ±adimos libros a la biblioteca
 						printf("\nIndique la cantidad de libros a a%cadir: ", 164);
 						scanf("%i", &sumalibros);
 						fflush(stdin);
@@ -143,13 +143,13 @@ int main()
 					}
 					if(!encontrado){
 						puts("\nNo se ha encontrado ningun libro con ese titulo.");
-						printf("\n¿Desea a%cadirlo?\n", 164);
+						printf("\nÂ¿Desea a%cadirlo?\n", 164);
 						puts("\n\tS - Si");
 						puts("\tN - No\n");
 						scanf("%c", &opcion);
 						fflush(stdin);
 						if(opcion == 's' || opcion == 'S'){
-							// Añadimos libros a la biblioteca
+							// AÃ±adimos libros a la biblioteca
 							puts ("\nIntroduce los datos del libro");
 							pedir_datos(biblioteca, i);
 							fflush(stdin);						
@@ -172,8 +172,8 @@ int main()
 						}
 					}
 					
-					// Preguntamos si desea añadir mas libros			
-					printf("\n¿Desea a%cadir alguno mas?\n", 164);
+					// Preguntamos si desea aÃ±adir mas libros			
+					printf("\nÂ¿Desea a%cadir alguno mas?\n", 164);
 					puts("\n\tS - Si");
 					puts("\tN - No\n");
 					scanf("%c", &opcion);
@@ -232,7 +232,7 @@ int main()
 					}
 					
 					// Preguntamos si desea eliminar mas libros	
-					printf("\n\n¿Desea eliminar alguno mas?\n");
+					printf("\n\nÂ¿Desea eliminar alguno mas?\n");
 					puts("\n\tS - Si");
 					puts("\tN - No\n");
 					scanf("%c", &opcion);
@@ -277,7 +277,7 @@ int main()
 					}
 					
 					// Preguntamos si desea devolver mas libros			
-					printf("\n\n¿Desea devolver alguno mas?\n");
+					printf("\n\nÂ¿Desea devolver alguno mas?\n");
 					puts("\n\tS - Si");
 					puts("\tN - No\n");
 					scanf("%c", &opcion);
@@ -322,7 +322,7 @@ int main()
 					}
 					
 					// Preguntamos si desea prestar mas libros	
-					printf("\n\n¿Desea prestar alguno mas?\n");
+					printf("\n\nÂ¿Desea prestar alguno mas?\n");
 					puts("\n\tS - Si");
 					puts("\tN - No\n");
 					scanf("%c", &opcion);
@@ -357,7 +357,7 @@ int main()
 					}
 					
 					// Preguntamos si desea mostrar alguna lista de libros por autor mas
-					printf("\n\n¿Desea mostrar alguna lista libros por autor mas?\n");
+					printf("\n\nÂ¿Desea mostrar alguna lista libros por autor mas?\n");
 					puts("\n\tS - Si");
 					puts("\tN - No\n");
 					scanf("%c", &opcion);
@@ -392,7 +392,7 @@ int main()
 					}
 					
 					// Preguntamos si desea mostrar alguna lista de libros por genero mas
-					printf("\n\n¿Desea mostrar alguna lista libros por genero mas?\n");
+					printf("\n\nÂ¿Desea mostrar alguna lista libros por genero mas?\n");
 					puts("\n\tS - Si");
 					puts("\tN - No\n");
 					scanf("%c", &opcion);
@@ -402,12 +402,12 @@ int main()
 			break;
 			
 			default:
-				printf ("\n\tOpción incorrecta\n");
+				printf ("\n\tOpciÃ³n incorrecta\n");
 				continue;
 		}
 		
 		// Preguntamos si desea hacer otra consulta
-		puts ("\n¿Desea hacer otra consulta?\n");
+		puts ("\nÂ¿Desea hacer otra consulta?\n");
 		puts ("\tS - Si");
 		puts ("\tN - No\n");
 		scanf("%c", &opcion);
@@ -415,7 +415,7 @@ int main()
 	}while(opcion != 'n' && opcion != 'N');
 	
 	// Preguntamos si desea salir del programa sin guadar la lista de libros en un archivo
-	puts ("\n¿Estas seguro que desea salir sin guardar la lista de libros?\n");
+	puts ("\nÂ¿Estas seguro que desea salir sin guardar la lista de libros?\n");
 	puts ("\tS - Si");
 	puts ("\tN - No\n");
 	scanf("%c", &opcion);
